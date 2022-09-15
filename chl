@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo What slot do you want to run? Accepted answers: 1,2,3
+read ans
+cd
+cd chc
+if [[ ans -gt 3 ]];
+then
+	echo Invalid response.
+	exit 0
+else
+	sudo bash $ans
+fi
