@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# This is part of the chl project.
+# Copyright (C) 2022
+# Type chli on your Terminal for copying conditions.
+
 echo What slot do you want to run? Accepted answers: 1,2,3
 read ans
 cd

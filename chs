@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# This is part of the chl project.
+# Copyright (C) 2022
+# Type chli on your Terminal for copying conditions.
+
 echo Type your command.
 read ans
 echo What slot do you want to save it to? Options: 1,2,3
