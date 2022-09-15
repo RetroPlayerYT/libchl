@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo What slot do you want to delete?
+echo Valid answers: 1,2,3
+read var
+if [[ $var -gt 3 ]];
+then
+	echo Invalid answer.
+else
+	cd
+	cd chc
+	rm $var
+fi
